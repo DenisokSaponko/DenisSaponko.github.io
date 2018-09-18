@@ -1,0 +1,4 @@
+AuthType Basik
+AuthName = "Admin Panel"
+Require valid-user
+

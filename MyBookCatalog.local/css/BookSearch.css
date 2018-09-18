@@ -1,0 +1,103 @@
+* { padding: 0; margin: 0;}
+html
+{
+    width:100%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    min-width: 320px;
+    position: relative;
+    height: auto;
+width:100%;
+    margin-bottom: 4em;
+
+}
+.Up-header {
+    text-align: justify;
+    justify-content: space-between;
+    padding: 10px;
+    background: slategrey;
+    color: #fff;
+    display: flex;
+    height: auto;
+}
+.navbar
+{
+    display: flex;
+    padding:10px 15px;
+    font-size: 15px;
+    align-items: center;
+    color: #fff;
+    order:5;
+}
+li{
+    display: inline-block;
+    padding-left:50px;
+
+    margin-top:40px;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+#headerwrap {
+    background: url("../image/look.com.ua-260676.jpg") no-repeat center top;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    background-position: center center;
+    min-height: 756px;
+    width: 100%;
+    margin-top:5px;
+}
+#Search
+{
+
+    display:flex;
+
+    width: 100%;
+    opacity: 0.88;
+    filter: alpha(Opacity=88);
+
+    margin-top:0;
+
+    padding-top:15px;
+    height: 100%;
+
+}
+
+#genre {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+
+}
+#author {
+
+    border-radius: 15px;
+
+    padding-left: 10px;
+    border-top: none;
+    padding-left: 0;
+
+}
+.books
+{
+    border: 1px solid black;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+    position: center;
+    background-color: slategrey ;
+color:white;
+}
